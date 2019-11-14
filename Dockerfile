@@ -1,8 +1,5 @@
 FROM python:3.7-slim
 
-WORKDIR /app # replace on your own
-
-
 # add environment variables if you want
 ENV GOOGLE_APPLICATION_CREDENTIALS ./credentials/google-credential.json
 
